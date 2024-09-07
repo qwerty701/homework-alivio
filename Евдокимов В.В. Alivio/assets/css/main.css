@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.header{
+    padding: 17px;
+    font-family: "Lato";
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu{
+    display: flex;
+}
+
+.header__link{
+    color: #292929;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.header__item{
+    margin-right: 70px;
+}
+
+.btn{
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #01996D;
+    padding: 13px 50px;
+    border-radius: 4px;
+    border: none;
+}
+
+.btn_white{
+    color: black;
+    background-color: white;
+}
+
+.main{
+    background: url('../img/BG.png') no-repeat center center / cover;
+    height: 90vh;
+    padding-top: 170px;
+}
+
+.main__info{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.main__title{
+    color: #01996D;
+    font-size: 65px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    width: 440px;
+    height: 148px;
+}
+
+.main__text{
+    color: #484848;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    width: 420px;
+    height: 123px;
+}
+
+.steps{
+    padding: 169px 0 255px 0;
+}
+
+.steps__subtitle{
+    color :#424242;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.steps_title{
+    color: #01996D;
+    font-weight: 900;
+    font-size: 50px;
+    max-width: 584px;
+}
+
+.steps__text{
+    display: flex;
+    flex-direction: column;
+    color: #424242;
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 670px;
+    max-height: 120px;
+    margin-bottom: 41px;
+}
+
+.steps__block{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 190px;
+}
+
+.steps__card-title{
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 55px;
+}
+
+.steps__card{
+    max-width: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.steps__pic img{
+    border-radius: 12px;
+}
+
+.steps__row{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.video{
+    background-color:#245852;
+    max-width: 1920px;
+    height: 922px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    max-width: 580px;
+    height: 230px;
+    padding-top: 81px;
+
+}
+
+.into{
+    max-width: 580px;
+    height: 158px;
+    margin-bottom: 33px;
+
+}  
+
+.into{
+    color: white;
+    font-family: Georgia;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 78.5px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.into2{
+    max-width: 530px;
+    height: 39px;
+} 
+
+.into2{
+    font-family: "Lato";
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 39.25px;
+    text-align: left;
+    color: white;
+    margin-bottom: 57px;
+}
+
+
+
+.video_player{
+    width: 895.84px;
+    height: 516.11px;
+    gap: 0px;
+    opacity: 0px;
+    float: right;
+    margin-top: 229px;
+    padding-left: 31px;
+}
+
+
+.product{
+    max-width: 1370px;
+    height: 648px;
+    margin: 120px auto 168px auto;
+    display: flex;
+}
+
+
+.photo_img{
+    position:relative;
+    margin-left: 60px;
+    margin-right: 83.63px;
+    width: 638.69px;
+    height: 573.26px;
+}
+
+.card_up{
+    position: absolute;
+    width: 296.14px;
+    height: 293.9px;
+    top: 320.1px;
+    left: -80px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+
+.box_text{
+    width: 584px;
+    height: 413px;
+}
+
+
+.intro_card{
+    width: 584px;
+    height: 207px;
+}
+
+.our{
+    font-size: 25px;
+    font-family: "Lato";
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #424242;
+} 
+
+.you-tell{
+    font-family: Georgia;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 78.5px;
+    text-align: left;
+    color: #01996D;
+    margin-bottom: 20px;
+}
+
+.text_intro{
+    width: 530px;
+    height: 81px;
+    margin-bottom: 40px;
+} 
+
+.text_intro p{
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31.4px;
+    text-align: left;
+    color: #484848;
+}
+
+.find{
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+
+}
+
+.podval{
+    background-color: #245852;
+    width: 1680px;
+    height: 654px;
+}
+
+.pod-info{
+    display: flex;
+    flex-direction: column;
+    padding-top: 95px;
+    padding-left: 275px;
+}
+
+.ali-podval{
+    font-family: Lato;
+    color: #fff;
+    font-size: 40px;
+}
+
+.txt-podval{
+    font-family: Lato;
+    font-size: 25px;
+    color: #fff;
+    display: flex;
+    padding-top: 60px;
+}
